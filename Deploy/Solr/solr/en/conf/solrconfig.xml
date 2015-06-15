@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+ contributor license agreements.  See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ The ASF licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<!--
+ This is a stripped down config file used for a simple example...  
+ It is *not* a good example to work from. 
+-->
+<config>
+  <luceneMatchVersion>LUCENE_31</luceneMatchVersion>
+  <!--  The DirectoryFactory to use for indexes.
+        solr.StandardDirectoryFactory, the default, is filesystem based.
+        solr.RAMDirectoryFactory is memory based, not persistent, and doesn't work with replication. -->
+  <directoryFactory name="DirectoryFactory" class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
+
+
+  <updateHandler class="solr.DirectUpdateHandler2" />
+
+  <requestDispatcher handleSelect="true" >
+    <requestParsers enableRemoteStreaming="false" multipartUploadLimitInKB="2048" />
+  </requestDispatcher>
+  
+  <requestHandler name="standard" class="solr.StandardRequestHandler" default="true" />
+  <requestHandler name="/update" class="solr.XmlUpdateRequestHandler" />
+  <requestHandler name="/admin/" class="org.apache.solr.handler.admin.AdminHandlers" />
+      
+  <!-- config for the admin interface --> 
+  <admin>
+    <defaultQuery>*:*</defaultQuery>
+  </admin>
+
+- <indexDefaults>
+  <useCompoundFile>false</useCompoundFile> 
+  <mergeFactor>10</mergeFactor> 
+- <!-- 
+ Sets the amount of RAM that may be used by Lucene indexing
+         for buffering added documents and deletions before they are
+         flushed to the Directory.  
+
+  --> 
+  <ramBufferSizeMB>32</ramBufferSizeMB> 
+- <!-- 
+ If both ramBufferSizeMB and maxBufferedDocs is set, then
+         Lucene will flush based on whichever limit is hit first.  
+      
+
+  --> 
+- <!--  <maxBufferedDocs>1000</maxBufferedDocs> 
+  --> 
+  <maxFieldLength>10000</maxFieldLength> 
+  <writeLockTimeout>1000</writeLockTimeout> 
+  <commitLockTimeout>10000</commitLockTimeout> 
+- <!-- 
+ Expert: Merge Policy 
+
+         The Merge Policy in Lucene controls how merging is handled by
+         Lucene.  The default in 2.3 is the LogByteSizeMergePolicy,
+         previous versions used LogDocMergePolicy.
+         
+         LogByteSizeMergePolicy chooses segments to merge based on
+         their size.  The Lucene 2.2 default, LogDocMergePolicy chose
+         when to merge based on number of documents
+         
+         Other implementations of MergePolicy must have a no-argument
+         constructor
+      
+
+  --> 
+- <!-- 
+       <mergePolicy class="org.apache.lucene.index.LogByteSizeMergePolicy"/>
+       
+
+  --> 
+- <!-- 
+ Expert: Merge Scheduler
+
+         The Merge Scheduler in Lucene controls how merges are
+         performed.  The ConcurrentMergeScheduler (Lucene 2.3 default)
+         can perform merges in the background using separate threads.
+         The SerialMergeScheduler (Lucene 2.2 default) does not.
+     
+
+  --> 
+- <!-- 
+ 
+       <mergeScheduler class="org.apache.lucene.index.ConcurrentMergeScheduler"/>
+       
+
+  --> 
+- <!-- 
+ LockFactory 
+
+         This option specifies which Lucene LockFactory implementation
+         to use.
+      
+         single = SingleInstanceLockFactory - suggested for a
+                  read-only index or when there is no possibility of
+                  another process trying to modify the index.
+         native = NativeFSLockFactory - uses OS native file locking.
+                  Do not use when multiple solr webapps in the same
+                  JVM are attempting to share a single index.
+         simple = SimpleFSLockFactory  - uses a plain file for locking
+
+         (For backwards compatibility with Solr 1.2, 'simple' is the
+         default if not specified.)
+
+         More details on the nuances of each LockFactory...
+         http://wiki.apache.org/lucene-java/AvailableLockFactories
+    
+
+  --> 
+  <lockType>native</lockType> 
+- <!-- 
+ Expert: Controls how often Lucene loads terms into memory
+         Default is 128 and is likely good for most everyone.
+      
+
+  --> 
+- <!--  <termIndexInterval>256</termIndexInterval> 
+  --> 
+  </indexDefaults>
+
+<searchComponent name="spellcheck" class="solr.SpellCheckComponent">
+     <str name="queryAnalyzerFieldType">text</str>
+    <lst name="spellchecker">
+     <str name="name">default</str>
+     <str name="classname">solr.IndexBasedSpellChecker</str>
+      <str name="field">alltext</str>
+      <str name="spellcheckIndexDir">spellchecker</str>
+      <str name="accuracy">0.75</str>
+      <str name="buildOnCommit">true</str>
+    </lst>   
+</searchComponent>
+
+<requestHandler name="/select" class="solr.SearchHandler" >
+<lst name="defaults">
+  <str name="spellcheck.onlyMorePopular">true</str> 
+  <str name="spellcheck.extendedResults">false</str>
+  <str name="spellcheck">true</str>  
+  <str name="spellcheck.count">2</str> 
+  </lst>
+<arr name="last-components">
+  <str>spellcheck</str> 
+  </arr>
+  </requestHandler>
+
+
+</config>
+

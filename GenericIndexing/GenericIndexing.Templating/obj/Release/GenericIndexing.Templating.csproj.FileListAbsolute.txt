@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\GenericIndexing.Templating.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\GenericIndexing.Templating.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.Common.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentDelivery.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentDelivery.Interop.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentManager.Common.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentManager.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentManager.Publishing.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentManager.Templating.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\netrtsn.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.ContentDelivery.Configuration.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\bin\Release\Tridion.Logging.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\obj\Release\GenericIndexing.Templating.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\obj\Release\GenericIndexing.Templating.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Templating\obj\Release\GenericIndexing.Templating.pdb

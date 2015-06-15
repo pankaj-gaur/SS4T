@@ -1,0 +1,13 @@
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.ServiceSecurity.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.ServiceSecurity.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Configuration.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Logging.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Services.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\log4net.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Configuration.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Logging.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\bin\Release\GenericIndexing.Common.Services.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\obj\Release\GenericIndexing.Common.ServiceSecurity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\obj\Release\GenericIndexing.Common.ServiceSecurity.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.ServiceSecurity\obj\Release\GenericIndexing.Common.ServiceSecurity.pdb

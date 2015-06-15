@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GenericSearching.SearchService.SearchSvc" CodeBehind="SearchSvc.svc.cs" %>

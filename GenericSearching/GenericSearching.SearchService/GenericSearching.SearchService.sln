@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSearching.SearchService", "GenericSearching.SearchService.csproj", "{9BA60215-713B-41B6-883C-CB044898087E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIndexing.Services.DataContracts", "..\..\GenericIndexing\GenericIndexing.Services\GenericIndexing.Services.DataContracts\GenericIndexing.Services.DataContracts.csproj", "{DF72B4D5-2AB7-483C-9E1E-B7D68624AA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSearching.SearchService.BAL", "..\GenericSearching.SearchService.BAL\GenericSearching.SearchService.BAL.csproj", "{CAF36C9A-9964-491F-B0ED-54A8BF9C6355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIndexing.Common.Logging", "..\..\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\GenericIndexing.Common.Logging.csproj", "{E9712D6D-E255-4C97-A333-E564E9C270E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericIndexing.Common.Configuration", "..\..\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\GenericIndexing.Common.Configuration.csproj", "{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA60215-713B-41B6-883C-CB044898087E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA60215-713B-41B6-883C-CB044898087E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA60215-713B-41B6-883C-CB044898087E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA60215-713B-41B6-883C-CB044898087E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF72B4D5-2AB7-483C-9E1E-B7D68624AA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF72B4D5-2AB7-483C-9E1E-B7D68624AA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF72B4D5-2AB7-483C-9E1E-B7D68624AA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF72B4D5-2AB7-483C-9E1E-B7D68624AA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF36C9A-9964-491F-B0ED-54A8BF9C6355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF36C9A-9964-491F-B0ED-54A8BF9C6355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF36C9A-9964-491F-B0ED-54A8BF9C6355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF36C9A-9964-491F-B0ED-54A8BF9C6355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9712D6D-E255-4C97-A333-E564E9C270E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9712D6D-E255-4C97-A333-E564E9C270E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9712D6D-E255-4C97-A333-E564E9C270E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9712D6D-E255-4C97-A333-E564E9C270E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

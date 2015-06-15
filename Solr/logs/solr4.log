@@ -1,0 +1,192 @@
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Jun 15, 2015 4:41:48 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr\solr\solr.xml
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer: solrHome=solr/ instance=597255128
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.CoreContainer load
+INFO: loading shared library: C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr\solr\lib
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr\en\'
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_31
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Jun 15, 2015 4:41:48 PM org.apache.solr.core.CoreContainer create
+INFO: creating new schema object for core: en
+Jun 15, 2015 4:41:48 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Jun 15, 2015 4:41:49 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=SolrSchema
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created binary: org.apache.solr.schema.BinaryField
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created int: org.apache.solr.schema.TrieIntField
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.TrieDateField
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdate: org.apache.solr.schema.TrieDateField
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EdgeNGramFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Jun 15, 2015 4:41:49 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text: org.apache.solr.schema.TextField
+Jun 15, 2015 4:41:49 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field is alltext
+Jun 15, 2015 4:41:49 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is OR
+Jun 15, 2015 4:41:49 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: tcmuri
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrCore <init>
+INFO: [en] Opening new SolrCore at solr\en\, dataDir=solr/en\data\
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: en
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created standard: solr.StandardRequestHandler
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: org.apache.solr.handler.admin.AdminHandlers
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Jun 15, 2015 4:41:49 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@124c278f main
+Jun 15, 2015 4:41:49 PM org.apache.solr.update.DirectUpdateHandler2$CommitTracker <init>
+INFO: AutoCommit: disabled
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: default
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SpellCheckComponent inform
+WARNING: No queryConverter defined, using default converter
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@bef2d72
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@69b2283a
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@22a637e7
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@6fe7aac8
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1d119efb
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@659a969b
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@bef2d72
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@69b2283a
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@22a637e7
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@6fe7aac8
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@1d119efb
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@3c130745
+Jun 15, 2015 4:41:49 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@659a969b
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: en
+Jun 15, 2015 4:41:49 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr
+Jun 15, 2015 4:41:49 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [en] Registered new searcher Searcher@124c278f main
+Jun 15, 2015 4:41:49 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 15, 2015 4:41:49 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Jun 15, 2015 4:41:49 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Jun 15, 2015 4:41:49 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Jun 15, 2015 4:42:18 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr\solr\en\data\index,segFN=segments_1,version=1434366415617,generation=1,filenames=[segments_1]
+Jun 15, 2015 4:42:18 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1434366415617
+Jun 15, 2015 4:42:18 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:10\-1166 OR tcmuri:tcm\:10\-1166)} 0 81
+Jun 15, 2015 4:42:18 PM org.apache.solr.core.SolrCore execute
+INFO: [en] webapp=/solr path=/update params={} status=0 QTime=81 
+Jun 15, 2015 4:42:18 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:10-1166]} 0 25
+Jun 15, 2015 4:42:18 PM org.apache.solr.core.SolrCore execute
+INFO: [en] webapp=/solr path=/update params={} status=0 QTime=25 
+Jun 15, 2015 4:42:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Jun 15, 2015 4:42:21 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr\solr\en\data\index,segFN=segments_1,version=1434366415617,generation=1,filenames=[segments_1]
+	commit{dir=C:\Users\Administrator\Desktop\SS4T_Hackthone\Solr\solr\en\data\index,segFN=segments_2,version=1434366415619,generation=2,filenames=[_0.tii, _0.tis, segments_2, _0.fdx, _0.nrm, _0.prx, _0.fdt, _0.fnm, _0.frq]
+Jun 15, 2015 4:42:21 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1434366415619
+Jun 15, 2015 4:42:21 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@703f004e main
+Jun 15, 2015 4:42:21 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Jun 15, 2015 4:42:21 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@703f004e main from Searcher@124c278f main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 15, 2015 4:42:21 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@703f004e main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 15, 2015 4:42:21 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Jun 15, 2015 4:42:21 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [en] Registered new searcher Searcher@703f004e main
+Jun 15, 2015 4:42:21 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@124c278f main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Jun 15, 2015 4:42:21 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 147
+Jun 15, 2015 4:42:21 PM org.apache.solr.core.SolrCore execute
+INFO: [en] webapp=/solr path=/update params={} status=0 QTime=147 

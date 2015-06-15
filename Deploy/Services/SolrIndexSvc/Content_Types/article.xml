@@ -1,0 +1,29 @@
+<contenttype name="article">
+  <fields>
+    <field name="tcmuri"
+              type="string"
+              iskey="true"
+              xpath="/article/@Id"
+              targetfield="tcmuri"/>
+	<field name="title"
+             type="text"
+             xpath="/article/title"
+             targetfield="title"/>
+    <field name="short-description"
+             type="text"
+             xpath="/article/shortdescription"
+             targetfield="short-description"/>
+    <field name="long-description"
+             type="text"
+             xpath="/article/longdescription"
+             targetfield="long-description"/>
+    <field name="smallimage"
+            type="multimedia"
+            xpath="/article/smallimage"
+            targetfield="small-image"/>
+    <field name="largeimage"
+            type="multimedia"
+            xpath="/article/largeimage"
+            targetfield="large-image"/>
+  </fields>
+</contenttype>

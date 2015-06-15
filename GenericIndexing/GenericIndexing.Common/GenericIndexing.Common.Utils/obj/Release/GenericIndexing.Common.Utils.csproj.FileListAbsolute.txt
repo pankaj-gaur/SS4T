@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Release\GenericIndexing.Common.Utils.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Release\GenericIndexing.Common.Utils.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Release\GenericIndexing.Common.Utils.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Release\GenericIndexing.Common.Utils.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Release\GenericIndexing.Common.Utils.pdb

@@ -1,0 +1,16 @@
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Logging.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Logging.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Versioning.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\log4net.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Versioning.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.csprojResolveAssemblyReference.cache
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Logging.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Logging.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Versioning.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\bin\Debug\GenericIndexing.Common.Versioning.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Logging\obj\Debug\GenericIndexing.Common.Logging.pdb

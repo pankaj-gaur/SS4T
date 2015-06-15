@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/GenericIndexing.Common.Configuration.dll">
+      <publishTime>03/31/2015 19:03:21</publishTime>
+    </File>
+    <File Include="bin/GenericIndexing.Common.ExceptionManagement.dll">
+      <publishTime>06/08/2015 08:18:29</publishTime>
+    </File>
+    <File Include="bin/GenericIndexing.Common.Logging.dll">
+      <publishTime>02/13/2015 16:14:48</publishTime>
+    </File>
+    <File Include="bin/GenericIndexing.Common.Services.dll">
+      <publishTime>06/08/2015 08:18:29</publishTime>
+    </File>
+    <File Include="bin/GenericIndexing.Services.DataContracts.dll">
+      <publishTime>06/08/2015 08:18:29</publishTime>
+    </File>
+    <File Include="bin/GenericSearching.SearchService.BAL.dll">
+      <publishTime>06/08/2015 08:21:30</publishTime>
+    </File>
+    <File Include="bin/GenericSearching.SearchService.dll">
+      <publishTime>06/08/2015 08:21:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>06/23/2011 13:04:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>01/11/2015 19:53:40</publishTime>
+    </File>
+    <File Include="bin/SolrNet.dll">
+      <publishTime>06/22/2011 13:27:54</publishTime>
+    </File>
+    <File Include="bin/StructureMap.dll">
+      <publishTime>08/27/2012 12:14:38</publishTime>
+    </File>
+    <File Include="bin/StructureMap.SolrNetIntegration.dll">
+      <publishTime>08/27/2012 12:14:38</publishTime>
+    </File>
+    <File Include="SearchSvc.svc">
+      <publishTime>02/16/2015 11:58:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/08/2015 08:21:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

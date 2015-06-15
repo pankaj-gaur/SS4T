@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E685B404-8C71-4E29-8964-B1598B01B6C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GenericIndexing.IndexService.BAL</RootNamespace>
+    <AssemblyName>GenericIndexing.IndexService.BAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContentMapper\ContentMapper.cs" />
+    <Compile Include="ContentMapper\ContentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ContentMapper\ContentTypeField.cs" />
+    <Compile Include="ContentMapper\FieldDataType.cs" />
+    <Compile Include="ContentMapper\MappedContent.cs" />
+    <Compile Include="OperationResult.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolrIndexManager.cs" />
+    <Compile Include="ContentMapper\Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\..\ThirdPartyReferences\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="SolrNet">
+      <HintPath>..\..\..\ThirdPartyReferences\SolrNet.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\..\..\ThirdPartyReferences\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap.SolrNetIntegration">
+      <HintPath>..\..\..\ThirdPartyReferences\StructureMap.SolrNetIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Tridion.ContentDelivery">
+      <HintPath>..\..\..\ThirdPartyReferences\Tridion.ContentDelivery.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\GenericIndexing.Common\GenericIndexing.Common.Configuration\GenericIndexing.Common.Configuration.csproj">
+      <Project>{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}</Project>
+      <Name>GenericIndexing.Common.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\GenericIndexing.Common\GenericIndexing.Common.Logging\GenericIndexing.Common.Logging.csproj">
+      <Project>{E9712D6D-E255-4C97-A333-E564E9C270E1}</Project>
+      <Name>GenericIndexing.Common.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\GenericIndexing.Common\GenericIndexing.Common.Services\GenericIndexing.Common.Services.csproj">
+      <Project>{F9E87D9C-DC42-472B-BD6A-0EABA3096C01}</Project>
+      <Name>GenericIndexing.Common.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GenericIndexing.Services.DataContracts\GenericIndexing.Services.DataContracts.csproj">
+      <Project>{df72b4d5-2ab7-483c-9e1e-b7d68624aa10}</Project>
+      <Name>GenericIndexing.Services.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericIndexing.Services.IndexService.DataContracts\GenericIndexing.IndexService.DataContracts.csproj">
+      <Project>{C8881042-4093-4FB2-8775-DA571B9BDB3F}</Project>
+      <Name>GenericIndexing.IndexService.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericIndexing.Services.IndexService.DataHelper\GenericIndexing.IndexService.DataHelper.csproj">
+      <Project>{92A5F789-0DA6-4926-B98A-BE76BEE29D2E}</Project>
+      <Name>GenericIndexing.IndexService.DataHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

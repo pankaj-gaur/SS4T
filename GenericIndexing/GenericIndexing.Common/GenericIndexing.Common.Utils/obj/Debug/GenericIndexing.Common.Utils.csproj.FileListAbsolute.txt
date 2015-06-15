@@ -1,0 +1,14 @@
+D:\CommunityExtension\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.dll
+D:\CommunityExtension\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.pdb
+D:\CommunityExtension\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\ResolveAssemblyReference.cache
+D:\CommunityExtension\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.dll
+D:\CommunityExtension\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\bin\Debug\GenericIndexing.Common.Utils.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Utils\obj\Debug\GenericIndexing.Common.Utils.pdb

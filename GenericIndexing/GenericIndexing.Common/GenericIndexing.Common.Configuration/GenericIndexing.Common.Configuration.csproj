@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D8566A7-21F7-433B-BF09-FCFF45F61FFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GenericIndexing.Common</RootNamespace>
+    <AssemblyName>GenericIndexing.Common.Configuration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseConfiguration.cs" />
+    <Compile Include="Cache\SynchronizedConfigurationCache.cs" />
+    <Compile Include="ConfigurationConstants.cs" />
+    <Compile Include="ConfigurationFactory.cs" />
+    <Compile Include="ConfigurationManager.cs" />
+    <Compile Include="ConfigurationSectionHandler.cs" />
+    <Compile Include="DefaultPropertyConfiguration.cs" />
+    <Compile Include="Interface\IConfiguration.cs" />
+    <Compile Include="Interface\IConfigurationCache.cs" />
+    <Compile Include="Interface\IConfigurationManager.cs" />
+    <Compile Include="Interface\IPropertyConfiguration.cs" />
+    <Compile Include="Interface\ITypeHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Type\Handler\BooleanTypeHandler.cs" />
+    <Compile Include="Type\Handler\CharTypeHandler.cs" />
+    <Compile Include="Type\Handler\DateTimeTypeHandler.cs" />
+    <Compile Include="Type\Handler\DecimalTypeHandler.cs" />
+    <Compile Include="Type\Handler\DoubleTypeHandler.cs" />
+    <Compile Include="Type\Handler\FloatTypeHandler.cs" />
+    <Compile Include="Type\Handler\IntegerTypeHandler.cs" />
+    <Compile Include="Type\Handler\LongTypeHandler.cs" />
+    <Compile Include="Type\Handler\ShortTypeHandler.cs" />
+    <Compile Include="Type\TypeHandlerFactory.cs" />
+    <Compile Include="XMLUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GenericIndexing.Common.Versioning\GenericIndexing.Common.Versioning.csproj">
+      <Project>{67424D27-3147-4A80-986E-6E41B960CCBC}</Project>
+      <Name>GenericIndexing.Common.Versioning</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

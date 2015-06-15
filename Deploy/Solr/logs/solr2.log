@@ -1,0 +1,586 @@
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: C:\Projects\Tridion\SS4T\Solr\solr\solr.xml
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer: solrHome=solr/ instance=597255128
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr/'
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.CoreContainer load
+INFO: loading shared library: C:\Projects\Tridion\SS4T\Solr\solr\lib
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to 'solr\extension\'
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_31
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.CoreContainer create
+INFO: creating new schema object for core: extension
+Mar 31, 2015 5:04:15 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Mar 31, 2015 5:04:15 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=SolrSchema
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created binary: org.apache.solr.schema.BinaryField
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created int: org.apache.solr.schema.TrieIntField
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.TrieDateField
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdate: org.apache.solr.schema.TrieDateField
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EdgeNGramFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Mar 31, 2015 5:04:15 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text: org.apache.solr.schema.TextField
+Mar 31, 2015 5:04:15 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field is alltext
+Mar 31, 2015 5:04:15 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is OR
+Mar 31, 2015 5:04:15 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: tcmuri
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrCore <init>
+INFO: [extension] Opening new SolrCore at solr\extension\, dataDir=solr/extension\data\
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: extension
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created standard: solr.StandardRequestHandler
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: org.apache.solr.handler.admin.AdminHandlers
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Mar 31, 2015 5:04:15 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@96def03 main
+Mar 31, 2015 5:04:15 PM org.apache.solr.update.DirectUpdateHandler2$CommitTracker <init>
+INFO: AutoCommit: disabled
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Registering newSearcher listener for spellchecker: default
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SpellCheckComponent inform
+WARNING: No queryConverter defined, using default converter
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@7e0b85f9
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@63355449
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@9353778
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@6a28ffa4
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@48ae9b55
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1700915
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@7e0b85f9
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@63355449
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@9353778
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@6a28ffa4
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@48ae9b55
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@3911c2a7
+Mar 31, 2015 5:04:15 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@1700915
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: extension
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=C:\Projects\Tridion\SS4T\Solr
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@96def03 main
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: JNDI not configured for solr (NoInitialContextEx)
+Mar 31, 2015 5:04:15 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: solr home defaulted to 'solr/' (could not find system property or JNDI)
+Mar 31, 2015 5:04:15 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Mar 31, 2015 5:04:20 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/admin/file/ params={contentType=text/xml;charset%3Dutf-8&file=schema.xml} status=0 QTime=9 
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_8,version=1427725181007,generation=8,filenames=[_3.fdx, _5.tii, segments_8, _5.fdt, _3.tis, _3.fnm, _3.frq, _5.nrm, _3.nrm, _5.fnm, _5.frq, _3.tii, _5.tis, _3.fdt, _5.fdx]
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181007
+Mar 31, 2015 5:04:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 90
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=90 
+Mar 31, 2015 5:04:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 20
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=20 
+Mar 31, 2015 5:04:37 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_8,version=1427725181007,generation=8,filenames=[_3.fdx, _5.tii, segments_8, _5.fdt, _3.tis, _3.fnm, _3.frq, _5.nrm, _3.nrm, _5.fnm, _5.frq, _3.tii, _5.tis, _3.fdt, _5.fdx]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_9,version=1427725181010,generation=9,filenames=[segments_9, _3.fdx, _3.tis, _6.fnm, _6.frq, _6.fdx, _3.fnm, _3.frq, _6.tis, _3.nrm, _6.tii, _6.fdt, _6.nrm, _3.tii, _3.fdt]
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181010
+Mar 31, 2015 5:04:37 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@fa4b692 main
+Mar 31, 2015 5:04:37 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:04:37 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@fa4b692 main from Searcher@96def03 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:04:37 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@fa4b692 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:04:37 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@fa4b692 main
+Mar 31, 2015 5:04:37 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@96def03 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:04:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 70
+Mar 31, 2015 5:04:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=70 
+Mar 31, 2015 5:04:42 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=1 
+Mar 31, 2015 5:04:46 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:47 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=1 
+Mar 31, 2015 5:04:47 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:47 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:47 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:48 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=10 
+Mar 31, 2015 5:04:49 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:49 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:49 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:49 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:04:49 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_9,version=1427725181010,generation=9,filenames=[segments_9, _3.fdx, _3.tis, _6.fnm, _6.frq, _6.fdx, _3.fnm, _3.frq, _6.tis, _3.nrm, _6.tii, _6.fdt, _6.nrm, _3.tii, _3.fdt]
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181010
+Mar 31, 2015 5:06:35 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 0
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:06:35 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:06:35 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_9,version=1427725181010,generation=9,filenames=[segments_9, _3.fdx, _3.tis, _6.fnm, _6.frq, _6.fdx, _3.fnm, _3.frq, _6.tis, _3.nrm, _6.tii, _6.fdt, _6.nrm, _3.tii, _3.fdt]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_a,version=1427725181013,generation=10,filenames=[_3.fdx, _7.tii, _3.tis, _7.nrm, _3.fnm, _3.frq, _3.nrm, _7.tis, _7.fnm, _7.frq, segments_a, _7.fdt, _3.tii, _3.fdt, _7.fdx]
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181013
+Mar 31, 2015 5:06:35 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@774d3b90 main
+Mar 31, 2015 5:06:35 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:06:35 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@774d3b90 main from Searcher@fa4b692 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:06:35 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@774d3b90 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:06:35 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@774d3b90 main
+Mar 31, 2015 5:06:35 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@fa4b692 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:06:35 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 40
+Mar 31, 2015 5:06:35 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=40 
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_a,version=1427725181013,generation=10,filenames=[_3.fdx, _7.tii, _3.tis, _7.nrm, _3.fnm, _3.frq, _3.nrm, _7.tis, _7.fnm, _7.frq, segments_a, _7.fdt, _3.tii, _3.fdt, _7.fdx]
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181013
+Mar 31, 2015 5:11:07 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:11:07 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 10
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:11:07 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_a,version=1427725181013,generation=10,filenames=[_3.fdx, _7.tii, _3.tis, _7.nrm, _3.fnm, _3.frq, _3.nrm, _7.tis, _7.fnm, _7.frq, segments_a, _7.fdt, _3.tii, _3.fdt, _7.fdx]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_b,version=1427725181016,generation=11,filenames=[_3.fdx, _8.tis, _8.fdx, _3.tis, _8.fdt, _3.fnm, _3.frq, _3.nrm, _8.fnm, _8.frq, _8.tii, segments_b, _3.tii, _8.nrm, _3.fdt]
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181016
+Mar 31, 2015 5:11:07 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@696c9383 main
+Mar 31, 2015 5:11:07 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:11:07 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@696c9383 main from Searcher@774d3b90 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:07 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@696c9383 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:07 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@696c9383 main
+Mar 31, 2015 5:11:07 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@774d3b90 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:07 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Mar 31, 2015 5:11:07 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=50 
+Mar 31, 2015 5:11:11 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=1 
+Mar 31, 2015 5:11:19 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:11:19 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:11:20 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:11:20 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:11:20 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_b,version=1427725181016,generation=11,filenames=[_3.fdx, _8.tis, _8.fdx, _3.tis, _8.fdt, _3.fnm, _3.frq, _3.nrm, _8.fnm, _8.frq, _8.tii, segments_b, _3.tii, _8.nrm, _3.fdt]
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181016
+Mar 31, 2015 5:11:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:11:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:11:55 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_b,version=1427725181016,generation=11,filenames=[_3.fdx, _8.tis, _8.fdx, _3.tis, _8.fdt, _3.fnm, _3.frq, _3.nrm, _8.fnm, _8.frq, _8.tii, segments_b, _3.tii, _8.nrm, _3.fdt]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_c,version=1427725181019,generation=12,filenames=[_3.fdx, _9.nrm, _3.tis, _9.fnm, _9.frq, _3.fnm, _3.frq, _3.nrm, _9.fdx, _9.fdt, _9.tii, _3.tii, _9.tis, _3.fdt, segments_c]
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181019
+Mar 31, 2015 5:11:55 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@1f77fdb6 main
+Mar 31, 2015 5:11:55 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:11:55 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@1f77fdb6 main from Searcher@696c9383 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:55 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@1f77fdb6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:55 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@1f77fdb6 main
+Mar 31, 2015 5:11:55 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@696c9383 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:11:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 40
+Mar 31, 2015 5:11:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=40 
+Mar 31, 2015 5:12:01 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=1 
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_c,version=1427725181019,generation=12,filenames=[_3.fdx, _9.nrm, _3.tis, _9.fnm, _9.frq, _3.fnm, _3.frq, _3.nrm, _9.fdx, _9.fdt, _9.tii, _3.tii, _9.tis, _3.fdt, segments_c]
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181019
+Mar 31, 2015 5:13:36 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:13:36 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 10
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:13:36 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_c,version=1427725181019,generation=12,filenames=[_3.fdx, _9.nrm, _3.tis, _9.fnm, _9.frq, _3.fnm, _3.frq, _3.nrm, _9.fdx, _9.fdt, _9.tii, _3.tii, _9.tis, _3.fdt, segments_c]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_d,version=1427725181022,generation=13,filenames=[_3.fdx, _a.tii, _a.fdt, _3.tis, _a.fdx, _3.fnm, _3.frq, _3.nrm, _a.fnm, _a.frq, _a.nrm, _3.tii, _a.tis, _3.fdt, segments_d]
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181022
+Mar 31, 2015 5:13:36 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@7df81f57 main
+Mar 31, 2015 5:13:36 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7df81f57 main from Searcher@1f77fdb6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:13:36 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7df81f57 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:13:36 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:13:36 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@7df81f57 main
+Mar 31, 2015 5:13:36 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@1f77fdb6 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:13:36 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Mar 31, 2015 5:13:36 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=50 
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_d,version=1427725181022,generation=13,filenames=[_3.fdx, _a.tii, _a.fdt, _3.tis, _a.fdx, _3.fnm, _3.frq, _3.nrm, _a.fnm, _a.frq, _a.nrm, _3.tii, _a.tis, _3.fdt, segments_d]
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181022
+Mar 31, 2015 5:15:06 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:15:06 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:15:06 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_d,version=1427725181022,generation=13,filenames=[_3.fdx, _a.tii, _a.fdt, _3.tis, _a.fdx, _3.fnm, _3.frq, _3.nrm, _a.fnm, _a.frq, _a.nrm, _3.tii, _a.tis, _3.fdt, segments_d]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_e,version=1427725181025,generation=14,filenames=[_3.fdx, _3.tis, _b.nrm, _3.fnm, _3.frq, _b.tis, _b.fnm, _b.frq, _3.nrm, _b.tii, _b.fdx, _3.tii, _b.fdt, segments_e, _3.fdt]
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181025
+Mar 31, 2015 5:15:06 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@340299df main
+Mar 31, 2015 5:15:06 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@340299df main from Searcher@7df81f57 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:15:06 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:15:06 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@340299df main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:15:06 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@340299df main
+Mar 31, 2015 5:15:06 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@7df81f57 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:15:06 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Mar 31, 2015 5:15:06 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=50 
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_e,version=1427725181025,generation=14,filenames=[_3.fdx, _3.tis, _b.nrm, _3.fnm, _3.frq, _b.tis, _b.fnm, _b.frq, _3.nrm, _b.tii, _b.fdx, _3.tii, _b.fdt, segments_e, _3.fdt]
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181025
+Mar 31, 2015 5:19:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:19:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:19:37 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_e,version=1427725181025,generation=14,filenames=[_3.fdx, _3.tis, _b.nrm, _3.fnm, _3.frq, _b.tis, _b.fnm, _b.frq, _3.nrm, _b.tii, _b.fdx, _3.tii, _b.fdt, segments_e, _3.fdt]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_f,version=1427725181028,generation=15,filenames=[_3.fdx, _3.tis, _c.fdt, _3.fnm, _3.frq, _c.tii, _3.nrm, _c.tis, _c.fdx, _c.nrm, _3.tii, segments_f, _3.fdt, _c.fnm, _c.frq]
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181028
+Mar 31, 2015 5:19:37 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@18d43e5a main
+Mar 31, 2015 5:19:37 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:19:37 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@18d43e5a main from Searcher@340299df main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:19:37 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@18d43e5a main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:19:37 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@18d43e5a main
+Mar 31, 2015 5:19:37 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@340299df main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:19:37 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 40
+Mar 31, 2015 5:19:37 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=40 
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_f,version=1427725181028,generation=15,filenames=[_3.fdx, _3.tis, _c.fdt, _3.fnm, _3.frq, _c.tii, _3.nrm, _c.tis, _c.fdx, _c.nrm, _3.tii, segments_f, _3.fdt, _c.fnm, _c.frq]
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181028
+Mar 31, 2015 5:21:25 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:21:25 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:21:25 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_f,version=1427725181028,generation=15,filenames=[_3.fdx, _3.tis, _c.fdt, _3.fnm, _3.frq, _c.tii, _3.nrm, _c.tis, _c.fdx, _c.nrm, _3.tii, segments_f, _3.fdt, _c.fnm, _c.frq]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_g,version=1427725181031,generation=16,filenames=[_3.fdx, _d.tis, _3.tis, _d.fdx, _d.fnm, _d.frq, _3.fnm, _3.frq, _3.nrm, segments_g, _d.nrm, _d.fdt, _3.tii, _3.fdt, _d.tii]
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181031
+Mar 31, 2015 5:21:25 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5330d030 main
+Mar 31, 2015 5:21:25 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:21:25 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@5330d030 main from Searcher@18d43e5a main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:21:25 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@5330d030 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:21:25 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@5330d030 main
+Mar 31, 2015 5:21:25 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@18d43e5a main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:21:25 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Mar 31, 2015 5:21:25 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=50 
+Mar 31, 2015 5:21:33 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=0 
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_g,version=1427725181031,generation=16,filenames=[_3.fdx, _d.tis, _3.tis, _d.fdx, _d.fnm, _d.frq, _3.fnm, _3.frq, _3.nrm, segments_g, _d.nrm, _d.fdt, _3.tii, _3.fdt, _d.tii]
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181031
+Mar 31, 2015 5:22:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=(tcmuri:tcm\:15\-15461 OR tcmuri:tcm\:15\-15461)} 0 10
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=10 
+Mar 31, 2015 5:22:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[tcm:15-15461]} 0 0
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=0 
+Mar 31, 2015 5:22:55 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=true,waitSearcher=true,expungeDeletes=false)
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_g,version=1427725181031,generation=16,filenames=[_3.fdx, _d.tis, _3.tis, _d.fdx, _d.fnm, _d.frq, _3.fnm, _3.frq, _3.nrm, segments_g, _d.nrm, _d.fdt, _3.tii, _3.fdt, _d.tii]
+	commit{dir=C:\Projects\Tridion\SS4T\Solr\solr\extension\data\index,segFN=segments_h,version=1427725181034,generation=17,filenames=[_3.fdx, _e.nrm, _3.tis, _3.fnm, _3.frq, _e.fdt, _3.nrm, _e.tii, _e.fdx, segments_h, _e.tis, _3.tii, _3.fdt, _e.fnm, _e.frq]
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1427725181034
+Mar 31, 2015 5:22:55 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@31cb4429 main
+Mar 31, 2015 5:22:55 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Mar 31, 2015 5:22:55 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@31cb4429 main from Searcher@5330d030 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:22:55 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@31cb4429 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:22:55 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener buildSpellIndex
+INFO: Building spell index for spell checker: default
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [extension] Registered new searcher Searcher@31cb4429 main
+Mar 31, 2015 5:22:55 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@5330d030 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Mar 31, 2015 5:22:55 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Mar 31, 2015 5:22:55 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/update params={} status=0 QTime=50 
+Mar 31, 2015 5:22:59 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select/ params={start=0&q=*:*&rows=10&indent=on&version=2.2} hits=2 status=0 QTime=1 
+Mar 31, 2015 5:24:01 PM org.apache.solr.request.UnInvertedField uninvert
+INFO: UnInverted multi-valued field {field=facet,memSize=4384,tindexSize=66,time=0,phase1=0,nTerms=3,bigTerms=1,termInstances=2,uses=0}
+Mar 31, 2015 5:24:01 PM org.apache.solr.core.SolrCore execute
+INFO: [extension] webapp=/solr path=/select params={q=contenttype:featureshowcase&facet.field=facet&facet.mincount=1&rows=100000000&facet=true&?=} hits=2 status=0 QTime=20 

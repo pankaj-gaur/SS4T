@@ -1,0 +1,16 @@
+<custom-storage>
+	<MetaFieldName>index</MetaFieldName>
+	<ServiceEndPoint>http://localhost:2272/IndexService.svc</ServiceEndPoint>
+	<AddDocumentMethodName>AddDocument</AddDocumentMethodName>
+	<AddDocumentQueryString>{"ServicePayload":{"DCP":"COMPONENTPRESENTATION","LanguageInRequest":"LANGUAGE"}}</AddDocumentQueryString>
+	<TemplateIdToIndex></TemplateIdToIndex>
+	<Err_EN_MetaFieldConfiguration>Error1</Err_EN_MetaFieldConfiguration>
+	<Err_EN_AddDocumentEndPointConfiguration>Error2</Err_EN_AddDocumentEndPointConfiguration>
+	<Err_EN_MetaFieldValue>Error3</Err_EN_MetaFieldValue>
+	<Err_EN_PublicationLanguage>Error4</Err_EN_PublicationLanguage>
+	<RemoveDocumentMethodName>RemoveDocument</RemoveDocumentMethodName>
+	<RemoveDocumentQueryString>{"ServicePayload":{"TCMURI":"TCMURI","LanguageInRequest":"LANGUAGE"}}</RemoveDocumentQueryString>
+	<Err_EN_RemoveDocumentEndPointConfiguration>Error7</Err_EN_RemoveDocumentEndPointConfiguration>
+	<Err_EN_RemoveFailure>Error8</Err_EN_RemoveFailure>
+
+</custom-storage>

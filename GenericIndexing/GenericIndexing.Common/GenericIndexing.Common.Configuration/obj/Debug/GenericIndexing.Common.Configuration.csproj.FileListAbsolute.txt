@@ -1,0 +1,14 @@
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Configuration.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Configuration.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Versioning.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Versioning.pdb
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.csprojResolveAssemblyReference.cache
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.dll
+C:\Projects\Tridion\SS4T\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Configuration.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Configuration.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Versioning.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\bin\Debug\GenericIndexing.Common.Versioning.pdb
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.dll
+C:\Users\Administrator\Desktop\SS4T_Hackthone\GenericIndexing\GenericIndexing.Common\GenericIndexing.Common.Configuration\obj\Debug\GenericIndexing.Common.Configuration.pdb
