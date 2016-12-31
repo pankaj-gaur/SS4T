@@ -1,0 +1,157 @@
+2016-12-31 12:21:43.049 INFO  (main) [   ] o.e.j.u.log Logging initialized @870ms
+2016-12-31 12:21:43.297 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.8.v20160314
+2016-12-31 12:21:43.307 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Projects/My%20GitHub/SS4T/Solr/server/contexts/] at interval 0
+2016-12-31 12:21:43.758 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-12-31 12:21:43.771 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@4e1d422d{/solr,file:///C:/Projects/My%20GitHub/SS4T/Solr/server/solr-webapp/webapp/,STARTING}{C:\Projects\My GitHub\SS4T\Solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-12-31 12:21:43.781 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=25548982@185d8b6
+2016-12-31 12:21:43.791 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-12-31 12:21:43.791 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Projects\My GitHub\SS4T\Solr\server\solr
+2016-12-31 12:21:43.801 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Projects\My GitHub\SS4T\Solr\server\solr'
+2016-12-31 12:21:43.801 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-12-31 12:21:43.801 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Projects\My GitHub\SS4T\Solr\server\solr
+2016-12-31 12:21:43.801 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Projects\My GitHub\SS4T\Solr\server\solr\solr.xml
+2016-12-31 12:21:43.881 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: C:\Projects\My GitHub\SS4T\Solr\server\solr
+2016-12-31 12:21:43.901 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1151755506
+2016-12-31 12:21:43.901 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Projects\My GitHub\SS4T\Solr\server\solr]
+2016-12-31 12:21:43.901 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from C:\Projects\My GitHub\SS4T\Solr\server\solr\lib to classpath: C:\Projects\My GitHub\SS4T\Solr\server\solr\lib
+2016-12-31 12:21:43.921 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-12-31 12:21:44.073 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-12-31 12:21:44.083 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-12-31 12:21:44.083 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-12-31 12:21:44.083 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-12-31 12:21:44.083 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-12-31 12:21:44.183 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath C:\Projects\My GitHub\SS4T\Solr\server\solr
+2016-12-31 12:21:44.193 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=en, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data}
+2016-12-31 12:21:44.193 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core en in C:\Projects\My GitHub\SS4T\Solr\server\solr\en
+2016-12-31 12:21:44.203 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-12-31 12:21:44.203 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Projects\My GitHub\SS4T\Solr\server
+2016-12-31 12:21:44.203 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-12-31 12:21:44.203 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Projects\My GitHub\SS4T\Solr\server\solr\en'
+2016-12-31 12:21:44.203 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-12-31 12:21:44.203 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Projects\My GitHub\SS4T\Solr\server\solr
+2016-12-31 12:21:44.233 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@4e1d422d{/solr,file:///C:/Projects/My%20GitHub/SS4T/Solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Projects\My GitHub\SS4T\Solr\server/solr-webapp/webapp}
+2016-12-31 12:21:44.276 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@10683d9d{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2016-12-31 12:21:44.277 INFO  (main) [   ] o.e.j.s.Server Started @2101ms
+2016-12-31 12:21:44.295 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2016-12-31 12:21:44.295 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/commons-compress-1.11.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/fontbox-2.0.1.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/icu4j-56.1.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/isoparser-1.1.18.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/jackcess-2.1.3.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/jempbox-1.8.12.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/metadata-extractor-2.8.1.jar' to classloader
+2016-12-31 12:21:44.305 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/pdfbox-2.0.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/pdfbox-tools-2.0.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/poi-3.15-beta1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/poi-ooxml-3.15-beta1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/poi-ooxml-schemas-3.15-beta1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/poi-scratchpad-3.15-beta1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/tika-core-1.13.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/tika-java7-1.13.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/tika-parsers-1.13.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/tika-xmp-1.13.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/vorbis-java-core-0.8.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/vorbis-java-tika-0.8.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/dist/solr-cell-6.2.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/attributes-binder-1.3.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/carrot2-guava-18.0.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/carrot2-mini-3.12.0.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/jackson-annotations-2.5.4.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/jackson-databind-2.5.4.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/clustering/lib/simple-xml-2.7.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/dist/solr-clustering-6.2.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/dist/solr-langid-6.2.1.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-12-31 12:21:44.325 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Projects/My%20GitHub/SS4T/Solr/dist/solr-velocity-6.2.1.jar' to classloader
+2016-12-31 12:21:44.592 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.2.1
+2016-12-31 12:21:44.818 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-12-31 12:21:44.859 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [en] Schema name=SolrSchema
+2016-12-31 12:21:44.921 ERROR (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Error creating core [en]: Could not load conf for core en: Can't load schema C:\Projects\My GitHub\SS4T\Solr\server\solr\en\conf\managed-schema: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+org.apache.solr.common.SolrException: Could not load conf for core en: Can't load schema C:\Projects\My GitHub\SS4T\Solr\server\solr\en\conf\managed-schema: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:85)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:836)
+	at org.apache.solr.core.CoreContainer.lambda$load$0(CoreContainer.java:494)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Can't load schema C:\Projects\My GitHub\SS4T\Solr\server\solr\en\conf\managed-schema: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:600)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:183)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:104)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:172)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:107)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:494)
+	... 14 more
+Caused by: org.apache.solr.common.SolrException: Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:165)
+	... 15 more
+2016-12-31 12:21:44.928 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [en]
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.apache.solr.core.CoreContainer.lambda$load$1(CoreContainer.java:522)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [en]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:851)
+	at org.apache.solr.core.CoreContainer.lambda$load$0(CoreContainer.java:494)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core en: Can't load schema C:\Projects\My GitHub\SS4T\Solr\server\solr\en\conf\managed-schema: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:85)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:836)
+	... 6 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema C:\Projects\My GitHub\SS4T\Solr\server\solr\en\conf\managed-schema: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:600)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:183)
+	at org.apache.solr.schema.ManagedIndexSchema.<init>(ManagedIndexSchema.java:104)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:172)
+	at org.apache.solr.schema.ManagedIndexSchemaFactory.create(ManagedIndexSchemaFactory.java:45)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:107)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:78)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "tdate": Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:494)
+	... 14 more
+Caused by: org.apache.solr.common.SolrException: Multiple [schema.xml] fieldType registered to the same name: tdate ignoring: tdate{class=org.apache.solr.schema.TrieDateField,analyzer=org.apache.solr.schema.FieldType$DefaultAnalyzer,args=null}
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:165)
+	... 15 more
+2016-12-31 12:21:44.945 INFO  (qtp1389647288-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=453
+2016-12-31 12:21:52.564 INFO  (qtp1389647288-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1483186912286} status=0 QTime=1
+2016-12-31 12:21:52.575 INFO  (qtp1389647288-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1483186912287} status=0 QTime=11
+2016-12-31 12:21:52.585 INFO  (qtp1389647288-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1483186912287} status=0 QTime=6
